@@ -1,4 +1,4 @@
-import 'package:certicode_app/pages/landing_page.dart';
+import 'package:certicode_app/screens/landing_screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

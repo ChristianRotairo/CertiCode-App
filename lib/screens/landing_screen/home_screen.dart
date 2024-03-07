@@ -1,4 +1,5 @@
 
+import 'package:certicode_app/auth/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -17,10 +18,10 @@ class _LandingPageState extends State<LandingPage> {
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           // navigator
-          // Navigator.push(
-          //   context,
-          //   MaterialPageRoute(builder: (context) => const RegisterPage()),
-          // );
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) =>  LoginPage()),
+          );
         },
         label: Text(
           'Register now !',
