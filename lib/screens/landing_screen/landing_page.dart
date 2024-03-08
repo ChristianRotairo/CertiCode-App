@@ -20,7 +20,7 @@ class _LandingPageState extends State<LandingPage> {
           // navigator
           Navigator.push(
             context,
-            MaterialPageRoute(builder: (context) =>  LoginPage()),
+            MaterialPageRoute(builder: (context) =>  const LoginPage()),
           );
         },
         label: Text(
